@@ -69,7 +69,7 @@ app.post("/failure", (req, res) => {
 });
 
 app.listen(process.env.PORT || port, function (){
-    console.log(`listening at http://localhost:${port}`);
+    //console.log(`listening at http://localhost:${port}`);
 });
 
 //api key
